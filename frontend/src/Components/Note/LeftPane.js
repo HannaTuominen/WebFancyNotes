@@ -38,6 +38,9 @@ class LeftPane extends Component{
           <TextField
                     id="standard-full-width"
                     label="Note"
+                    multiline
+                    rows="4"
+                    variant="outlined"
                     style={{ margin: 0 }}
                     placeholder="Write note here"
                     helperText="Write your actual note here"
