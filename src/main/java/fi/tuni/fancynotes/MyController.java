@@ -17,7 +17,7 @@ public class MyController {
         return noteDb.findAll();
     }
 
-    @RequestMapping(value = "add", method = RequestMethod.POST)
+    @RequestMapping(value = "api/add", method = RequestMethod.POST)
     public void add(@RequestBody Note note){
         noteDb.save(note);
 //        return ;
